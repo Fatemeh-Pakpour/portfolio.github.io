@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>PORTFOLIO</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/style.css">
+  </head>
+  <body id = "home" data-spy="scroll" data-target=".navbar" offset ="100">
+        <!--Nav bar  -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+            <div class ="container">
+                <a class="navbar-brand order-1 mr-0" href="https://www.hackyourfuture.net/" target ="_blank"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link" href="#cv">CV</a>
+                        <a class="nav-item nav-link" href="#portfolio">PORTFOLIO</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+         <!-- /Nav bar -->
+
+        <!-- Jumbotron -->
+        <div class="jumbotron jumbotron-fluid bg-info text-white text-center"> 
+            <img id = "photo" class = "my-4 img-fluid rounded-circle mx-auto d-block" src="./assets/fafa.jpg" alt="Fatemeh's photo" style="width: 200px;">  
+            <h1>FRONT END DEVELOPER</h1>
+            <h5>FATEMEH PAKPOUR</h5>
+        </div>
+        <!-- /Jumbotron -->
+       
+    <div class = "container">
+        <!-- CV -->
+        <div  id = "cv" class="row">
+            <div class="col-lg">
+                <h3 class = "mb-4">SUMMARY</h3>
+                <p class="text-justify"> I am a front-end developer with a passion for an interactive, useful, and delightful user experience. I consider myself a motivated person to learn new technologies and interested in collaborating and work in a team. </p>
+                <p class="text-justify"> Recently, I finished my full stack software development education at <a href="https://www.hackyourfuture.net/" target ="_blank">Hack You Future</a> coding school. 
+                    The program was 7 months intensively learning full-stack web development technologies.
+                    I put the link of some of my projects with mentioning the technologies that I used. 
+                    The source codes are available in my Github profile.
+                </p>
+                <img class = "mb-4 img-fluid rounded d-none d-sm-block" src ="./assets/hyf.png" alt="hyf" style ="width:20%">
+            </div>
+            
+            <div class="col-lg">
+                <h3 class="mb-4">SKILLS</h3>
+                 <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action"><strong>HTML/CSS</strong>: Responsive Design</a>
+                    <a href="#" class="list-group-item list-group-item-action"><strong>JavaScript</strong></a>
+                    <a href="#" class="list-group-item list-group-item-action"><strong>Bootstrap</strong>: B4 </a>
+                    <a href="#" class="list-group-item list-group-item-action"><strong>Node.js</strong>: Express </a>
+                    <a href="#" class="list-group-item list-group-item-action"><strong>React & React Router</strong></a>
+                    <a href="#" class="list-group-item list-group-item-action"><strong>MySQL</strong></a>  
+                    <a href="#" class="list-group-item list-group-item-action"><strong>Deploy</strong>: Deploying my web applications to heroku or Github Pages</a> 
+                </div>
+            </div>
+        </div>       
+    <!-- /CV -->
+        
+        <!-- portfolio -->
+        <h1 id = "portfolio" class="display-4 text-center my-5 text-muted">PORTFOLIO</h1>
+        <div class="row">
+                <div class="col-md-6 col-lg-4 work">
+                    <div class="card mb-3">
+                        <img class="card-img-top img-fluid" src="./assets/todoList.PNG" alt="to do list">
+                        <div class="card-body">
+                            <h4 class="card-title"><a href ="https://fatemeh-pakpour.github.io/todo-list/" target="_blank">To Do List</a></h4>
+                                <p class="card-text text-justify">To do List app to create a list of tasks that need to be done 
+                                    with the functionality of editing and deleting tasks and adding deadline to each task using datepicker library.
+                                </p>
+                                <div class ="icon">
+                                    <span class="badge badge-pill badge-info p-2">React</span>
+                                    <span class="badge badge-pill badge-info p-2">Bootstrap</span>
+                                    <span class="badge badge-pill badge-info p-2">CSS</span>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card mb-3">
+                        <img class="card-img-top img-fluid" src ="./assets/weather.png"  alt="weather app">
+                        <div class="card-body">
+                                <h4 class="card-title"><a href ="https://fatemeh-pakpour.github.io/fun-CSS/weather_app/index.html" target="_blank">Weather app</a></h4>
+                                <p class="card-text text-justify">A weather app that based on a users location can find the relevant weather for that user. The current weather api is fetched from openweathermap in this project.
+                                    The google map geo location api is used to show the location of the city on the map.
+                                </p>
+                                <div class = "icon">
+                                    <span class="badge badge-pill badge-info p-2 ">JS</i></span>
+                                    <span class="badge badge-pill badge-info p-2 ">CSS</span>
+                                </div>  
+                        </div>
+                </div>
+            </div>
+            
+            <div class="col-md-6 col-lg-4">
+                <div class="card mb-3">
+                    <img class="card-img-top img-fluid" src="https://media.giphy.com/media/Nm8ZPAGOwZUQM/giphy.gif" alt="giphy">
+                        <div class="card-body">
+                            <h4 class="card-title"><a href ="https://fatemeh-pakpour.github.io/giphy-app/" target="_blank">Giphy app</a></h4>
+                            <p class="card-text text-justify">This is a gif search app which fetch an api from https://developers.giphy.com/docs/. The app has a search functionality to find a gif matching the searched word </p>
+                            <div class = "icon">
+                                <span class="badge badge-pill badge-info p-2">React</span>
+                                <span class="badge badge-pill badge-info p-2">CSS</span>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card mb-3">
+                    <img class="card-img-top img-fluid" src="./assets/game.png" alt="game">
+                    <div class="card-body">
+                        <h4 class="card-title"><a href ="https://fatemeh-pakpour.github.io/fun-CSS/game/mian.html" target="_blank">Fastest Presser Game</a></h4>
+                        <p class="card-text text-justify">A user specifies how long time the game should be, and presses "start game!". When the button is pressed it is about pressing either l or s on the keyboard. The user that has the highest number of keypresses after the time is up, wins.</p>
+                        <div class ="icon">
+                            <span class="badge badge-pill badge-info p-2">JS</i></span>
+                            <span class="badge badge-pill badge-info p-2">CSS</span>
+                        </div>
+                    </div>
+                </div>   
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card mb-3">
+                    <img class="card-img-top img-fluid" src="./assets/Capture.PNG" alt="full stack conf">
+                    <div class="card-body">
+                        <h4 class="card-title"><a href ="https://fatemeh-pakpour.github.io/fun-CSS/full-stack-Confs/index.html#schedule" target="_blank">Full Stack Confs</a></h4>
+                        <p class="card-text text-justify"> The full stack conference app is the static app that styles with bootstrap.</p>
+                        <div class ="icon">
+                           <span class="badge badge-pill badge-info p-2">Bootstrap</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            
+        </div> <!-- /portfolio -->
+
+
+    <!-- footer -->
+   
+        <div class="col-md text-md-right">
+            <small>&copy; 2019 PORTFOLIO &amp; FATEMEH PAKPOUR</small>
+        </div>
+     
+    <!-- /footer -->
+    </div>  <!-- /.container -->
+   
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
